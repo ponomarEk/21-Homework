@@ -38,7 +38,7 @@ class AddTweet extends Component{
                       
                         axios({
                             method : 'post',
-                            url: 'http://77.120.108.119:9999/tweets/',
+                            url: 'https://77.120.108.119:9999/tweets/',
                             data:{
                                 userId: parseInt(this.state.userId),
                                 content:this.state.content,

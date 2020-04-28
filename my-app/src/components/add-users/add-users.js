@@ -42,7 +42,7 @@ class AddUser extends Component{
                                 avatar:this.state.avatar
                             })
                         };
-                        fetch('http://77.120.108.119:9999/users/', requestOptions).then(function(res){ console.log(res) });
+                        fetch('https://77.120.108.119:9999/users/', requestOptions).then(function(res){ console.log(res) });
                         pushUsersDataSuccess({
                             name:this.state.name,
                             username:nick,

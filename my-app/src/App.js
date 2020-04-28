@@ -17,8 +17,8 @@ export const PUSH_TWEETS_DATA_SUCCESS='PUSH_TWEETS_DATA_SUCCESS';
 
  class App extends Component {
    componentDidMount(){
-     this.props.fetchUsersData('http://77.120.108.119:9999/users/');
-     this.props.fetchTweetsData('http://77.120.108.119:9999/tweets/')
+     this.props.fetchUsersData('https://77.120.108.119:9999/users/');
+     this.props.fetchTweetsData('https://77.120.108.119:9999/tweets/')
   }
   render(){
     return (
