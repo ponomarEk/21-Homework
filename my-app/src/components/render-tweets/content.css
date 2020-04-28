@@ -1,0 +1,17 @@
+
+.content{
+    margin-left: 20.5px;
+    margin-top: 0;
+}
+p{
+    text-align: left;
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: bold;
+    color: ivory;
+}
+#content__photo{
+    border-radius: 25px;
+    width: 600px;
+    height: 250px;
+}

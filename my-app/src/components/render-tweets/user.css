@@ -1,0 +1,38 @@
+
+.info{
+    display: flex;
+    margin-left:20px;
+    margin-top:10px;
+    width: 410px;
+}
+div{
+	box-sizing: border-box;
+}
+.user__elements li{
+    display: inline;
+    
+    margin-left: 9px;
+    text-align: right;
+}
+.user__elements li:first-child{
+    margin: 0;
+}
+.user__elements{
+    padding: 0;
+    margin-top: 7px;
+
+}
+
+#verify{
+    height: 20px;
+    width: 20px;
+    margin-left: 6px;
+}
+
+#name{
+    font-size: 26px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: ivory;
+}
+
